@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        활동 내역 이미지를 -> 인터넷에 있는 이미지를 Glide를 통해서 불러내자
-        Glide.with(this).load("https://ppss.kr/wp-content/uploads/2019/11/02-78-540x299.jpg").into(actionImg)
+        Glide.with(this).load("http://ppss.kr/wp-content/uploads/2019/11/02-78-540x299.jpg").into(actionImg)
 
 
         callBtn.setOnClickListener {
